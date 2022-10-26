@@ -60,7 +60,7 @@ body {
 }
 
 .flex {
-  gap: 40px;
+  gap: 4px;
   display: flex;
 }
 
@@ -83,28 +83,8 @@ body {
   align-items: center;
 }
 
-.align-start {
-  align-items: flex-start;
-}
-
-.align-end {
-  align-items: flex-end;
-}
-
-.justify-start {
-  justify-content: flex-start;
-}
-
 .justify-center {
   justify-content: flex-center;
-}
-
-.justify-end {
-  justify-content: flex-end;
-}
-
-.justify-between {
-  justify-content: space-between;
 }
 
 .justify-around {
@@ -113,10 +93,6 @@ body {
 
 .justify-evenly {
   justify-content: space-evenly;
-}
-
-.portion {
-  flex: 1;
 }
 
 .btn {
@@ -130,6 +106,7 @@ body {
 }
 
 .btnn {
+  margin-top: 15px;
   color: black;
   background-color: #65E4A3;
 }
@@ -167,4 +144,72 @@ body {
   position: absolute;
   opacity: 0.5;
   z-index: 999;
+}
+
+.section0 {
+  background-color: white;
+}
+
+.section1 {
+  width: 600px;
+  text-align: center;
+  transform: translateX(300px);
+  padding-top: 70px;
+  padding-bottom: 60px;
+}
+
+.section1 span {
+  color: #777777;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.section1 h2 {
+  font-size: 30px;
+  line-height: 50px;
+}
+
+.portion {
+  flex: 1;
+}
+
+.cardnet {
+  width: 330px;
+  padding: 10px;
+  line-height: 1.8rem;
+}
+
+.cardnet h3 {
+  font-size: 20px;
+  line-height: 1.8rem;
+}
+
+.cardnet p {
+  color: #777777;
+  font-size: 18px;
+  line-height: 1.9em;
+  margin-bottom: 15px;
+}
+
+.trans {
+  width: 250px;
+  transform: translate(250px, -90px);
+}
+
+.transs {
+  width: 450px;
+  transform: translate(100px, 200px);
+}
+
+.text h2 {
+  font-size: 32px;
+  line-height: 1.8em;
+}
+
+.text {
+  width: 500px;
+}
+
+.row {
+  margin-bottom: 15px;
 }/*# sourceMappingURL=main.css.map */

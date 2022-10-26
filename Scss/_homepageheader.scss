@@ -57,7 +57,7 @@ body{
  }
 
 .flex{
-    gap: 40px;
+    gap: 4px;
     display: -ms-flexbox;
     display: flex;
     
@@ -80,36 +80,15 @@ body{
         -ms-flex-align: center;
             align-items: center;
 }
-.align-start{
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-}
-.align-end{
-    -webkit-box-align: end;
-        -ms-flex-align: end;
-            align-items: flex-end;
-}
-.justify-start{
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
-}
+
+
 .justify-center{
     -webkit-box-pack: flex-center;
         -ms-flex-pack: flex-center;
             justify-content: flex-center;
 }
-.justify-end{
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
-}
-.justify-between{
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-}
+
+
 .justify-around{
     -ms-flex-pack: distribute;
         justify-content: space-around;
@@ -119,11 +98,7 @@ body{
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
 }
-.portion{
-    -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
-}
+
 .btn{
     font-size: 15px;
    border: 1px solid #fff ;
@@ -135,6 +110,7 @@ body{
     margin-right: 10px;
 }
 .btnn{
+    margin-top: 15px;
     color: black;
     background-color:#65E4A3;
 }
