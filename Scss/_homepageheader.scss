@@ -1,9 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  scroll-behavior: smooth;
 }
 ul {
   color: white;
@@ -15,15 +13,16 @@ img {
 }
 header {
   background-color: #0a2640;
+
 }
+.header{
+  background-color: #0a2640;
+}
+
 .li {
   padding: 10px;
   padding-bottom: 0.4em;
   border-bottom: 4px solid inherit;
-}
-.li:hover {
-  padding-bottom: 0.3em;
-  border-bottom: 2px solid white;
 }
 a {
   color: inherit;
@@ -44,7 +43,6 @@ body {
   top: 0;
   z-index: 100;
   margin: 0 auto;
-  padding-bottom: 40px;
  
 }
 .margin-top {
@@ -54,12 +52,10 @@ body {
 
 .flex {
   gap: 4px;
-  display: -ms-flexbox;
   display: flex;
 }
 .flex2 {
   gap: 40px;
-  display: -ms-flexbox;
   display: flex;
   flex-wrap: wrap;
 }
@@ -99,7 +95,6 @@ body {
   color: white;
   padding: 0.6em 2.8em;
   border-radius: 20px;
-
   margin-right: 10px;
 }
 .btnn {
@@ -134,5 +129,39 @@ body {
   transform: translate(290px, -180px);
   position: absolute;
   opacity: 0.5;
-  z-index: 999;
+  z-index: 1;
+}
+.ml-a{
+  margin-left: auto;
+}
+.d-flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-left: auto;
+  li{
+    padding: 2px;
+    &:hover {
+    border-bottom: 1px solid white;
+  }
+  }
+}
+.ml-a{
+  margin-left: auto;
+}
+.head{
+  background-color: #0a2640;
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  padding: 20px 0;
+}
+.body{
+   background-color: #0a2640;
 }
