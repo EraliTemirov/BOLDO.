@@ -7,8 +7,7 @@ header{
     border-bottom: 1px solid white;
 }
 header:hover{
-    border-bottom: 1px solid 
-#0082F4;
+    border-bottom: 1px solid black ;
 }
 .header-info{
     display: flex;
@@ -37,33 +36,24 @@ nav{
 }
 .nav-link{
     text-decoration: none;
-    font-family: 'Roboto';
+  font-family: 'Open Sans';
 font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 23px;
-color: #000000;
+font-weight: 600;
+font-size: 16px;
+line-height: 28px;
+color: #0A2640;
 }
-.nav-link-1{
-    text-decoration: none;
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 25px;
-line-height: 23px;
-color: #0082F4;
-}
+
 .site-link{
     text-decoration: none;
     text-align: center;
-    font-family: 'Roboto';
+    font-family: 'Open Sans';
 font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 23px;
-color: #FFFFFF;
-background: #0082F4;
-border-radius: 6px;
-padding: 15px 30px;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+display: flex;
+align-items: center;
+color: #0A2640;
 }
 
