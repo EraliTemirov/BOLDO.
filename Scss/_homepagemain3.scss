@@ -1,0 +1,39 @@
+.section0{
+    .root{
+        h2{
+            font-size: 34px;
+            line-height: 1.5em;
+        }
+        span{
+           font-size: 18px;
+        }
+        div{
+            box-shadow: 1px  1px 5px rgba(0, 0, 0, 0.578);
+              padding: 2px;
+            border-radius: 8px;
+              line-height: 3.8em;
+              margin-top: 15px;
+          
+        }
+    }
+.rost{
+         margin-top: 40px;
+        background-color: #0A2640;
+        color: white;
+    }
+    .flex{
+        width: 400px;
+    }
+    h2{
+        margin-top: 40px;
+        width: 480px;
+    }
+    .imig{
+        width: 400px;
+        .imgs{
+            background-color: white;
+            width: 250px;
+            transform: translate(50px, -200px);
+        }
+    }
+}
