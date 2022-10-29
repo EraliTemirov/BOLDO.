@@ -45,6 +45,7 @@ header {
   justify-content: space-between;
   align-items: center;
   background-color: #0A253E;
+  border-radius: 10px;
   position: fixed;
   top: 0;
   z-index: 100;
