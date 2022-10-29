@@ -27,6 +27,9 @@ body{
 }
 header{
     background-color: #0A253E;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
 }
 .header-info{
     display: flex;
@@ -127,15 +130,12 @@ nav{
     margin-right: 40px;
 }
 .mtimg{
-    margin-top: 10px;
-    width: 280px;
+    margin-top: 40px;
     margin-right: 10px;
 }
 .imgt{
-    width: 350px;
     margin-right: 40px;
 }
-
 .hero3-str{
     font-style: normal;
     font-weight: 400;
@@ -183,6 +183,7 @@ nav{
 }
 .hero4-content{
     padding-bottom: 94px;
+    list-style: none;
 }
 .hero4{
     padding-top: 94px;
@@ -220,6 +221,7 @@ nav{
 }
 .ul6{
     display: flex;
+    list-style: none
 }
 .li6{
     font-style: normal;
@@ -257,6 +259,9 @@ nav{
     font-family: 'Open Sans';
     color: #777777;
 }
+.hero5{
+    margin-bottom: 120px;
+}
 .hero5-title{
     font-style: normal;
     font-weight: 400;
@@ -277,6 +282,7 @@ nav{
 }
 .hero6{
     background-color: #0A2640;
+    padding-top: 123px;
 }
 .span3{
     font-style: normal;
@@ -309,4 +315,70 @@ nav{
 .hero6-content{
     margin: 0 auto;
     width: 792px;
+}
+.txth3{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 48px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    font-family: 'Manrope';
+}
+.txtp{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #F1F1F1;
+    font-family: 'Open Sans';
+}
+.wrc{
+    display: flex;
+    margin-top: 72px;
+}
+.wrc0{
+    width: 600px;
+    margin-left: 50px;
+}
+.hero6{
+    padding-bottom: 123px;
+}
+.hero7-title{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 72px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Manrope';
+}
+.hero7-content{
+    width: 842px;
+    margin: 0 auto;
+    background-color: #0A2640;
+}
+.span12{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    font-family: 'Open Sans';
+}
+.span21{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    color: #0A2640;
+    font-family: 'Open Sans';
 }
