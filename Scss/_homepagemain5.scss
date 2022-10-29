@@ -1,0 +1,156 @@
+
+.containertwo{
+    width: 1000px;
+    margin:40px 100px;
+}
+.div-box{
+    width: 500px;
+    height: 164px;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 56px;
+    color:black;
+}
+.box1{
+    width: 400px;
+    height: 140px;
+    line-height: 40px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.box2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.box3{
+    text-align: center;
+   padding-top: 150px;
+    width: 842px;
+    margin-left: 180px;
+
+}
+.box3 h3{
+    line-height: 72px;
+    font-size: 42px;
+    font-weight: 400;
+    color: black;
+}
+.box3 p{
+    font-size: 1.5rem;
+    color:rgb(200, 207, 213);
+}
+.box4{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box5{
+    width: 300px;
+    height:424px;
+    padding: 24px;
+}
+.box5 h4{
+    width: 300px;
+    height: 99px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+}
+.box5 p{font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    margin-left: 10px;
+
+}
+.box6{
+    display: flex;
+    gap: 2rem;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    width: 300px;
+    height: 32px;
+}
+.box7{
+    width: 1200px;
+    height: 450px;
+    background-color:#0A2640;
+    border-radius: 12px; 
+}
+.box7 h3{width: 716px;
+    height: 150px;
+    line-height: 72px;
+    font-weight: 400;
+    font-size: 48px;
+    color:#FFFFFF;
+    margin-left:22%;
+    padding: 28px;
+}
+form{
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+    gap:2rem;
+}
+input{width: 370px;
+    border-radius: 56px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: center;
+    border:2px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+button{width: 210px;
+    height: 60px;
+    background-color:#65E4A3;
+    border:2px solid #65E4A3;
+    border-radius: 56px;
+    text-align: center;
+    font-size: 20px;
+
+}
+.spa{
+    margin-left: 500px;
+    width: 219px;
+    height: 60px;
+    padding: 16px 56px;
+    border:2px solid #0A2640;
+    border-radius:56px;
+    margin-top: 50px;
+   
+
+}
+.tem{
+    height: 1000px;
+}
+
+.box8{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 155px;
+}
+.box9{width: 150px;
+    height: 100px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 70px;
+    color:#777777;
+}
+
+.pag{width: 300px;
+    height: 150px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color:#777777;
+    margin-top:15px;
+
+}
+.box9 h4{
+    color:black;
+    font-weight: 900;
+}
