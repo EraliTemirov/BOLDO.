@@ -114,13 +114,28 @@ button{width: 210px;
 
 }
 .spa{
+    background-color: inherit;
     margin-left: 500px;
     width: 219px;
     height: 60px;
     padding: 16px 56px;
     border:2px solid #0A2640;
-    border-radius:56px;
+    border-radius:20px;
     margin-top: 50px;
+    color: #777777;
+   
+
+}
+.spa:hover{
+    background-color: #a348486c;
+    margin-left: 500px;
+    width: 219px;
+    height: 60px;
+    padding: 16px 56px;
+    border:2px solid #0A2640;
+    border-radius:20px;
+    margin-top: 50px;
+    color: #ffffff;
    
 
 }
