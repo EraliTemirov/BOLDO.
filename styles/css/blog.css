@@ -1,0 +1,410 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+img {
+  vertical-align: middle;
+}
+
+body {
+  font-family: "Manrope", "Open Sans";
+  padding: 0;
+  margin: 0;
+  background-color: #fff;
+}
+
+.container {
+  width: 100%;
+  max-width: 1300;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
+
+header {
+  background-color: #fff;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+  border-bottom: 1px solid white;
+  margin-bottom: 100px;
+  margin-top: 50px;
+  margin-left: 40px;
+}
+
+header:hover {
+  border-bottom: 1px solid black;
+}
+
+.header-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 250px;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  margin-right: 200px;
+}
+
+.nav-item {
+  margin-left: 40px;
+}
+
+.nav-item:hover {
+  border-bottom: 3px solid #9848FF;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+  color: #0A2640;
+}
+
+.Log-In {
+  text-decoration: none;
+  text-align: center;
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  color: #0A2640;
+  border: 2px solid #0A2640;
+  border-radius: 40px;
+  padding: 7px 33px;
+}
+
+.titr {
+  margin-left: 110px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.hero-top {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #0A2640;
+  margin-right: 30px;
+}
+
+.hero-title {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 84px;
+  color: #0A2640;
+}
+
+.hero-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.hero-content {
+  display: inline-block;
+  width: 500px;
+  margin-left: 100px;
+}
+
+.smaller {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  color: #0A2640;
+}
+
+.seriy {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #777777;
+}
+
+.title-2 {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 72px;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.hero-img {
+  text-decoration: none;
+}
+
+.name {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #000000;
+  margin-left: 12px;
+}
+
+.second-title {
+  margin-left: 200px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 72px;
+  color: #000000;
+}
+
+.second-info {
+  margin-bottom: 120px;
+  margin-top: 80px;
+}
+
+.second-cards {
+  margin-left: 150px;
+}
+
+.three-card1 {
+  display: flex;
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+
+.three-card2 {
+  display: flex;
+  padding-bottom: 60px;
+}
+
+.sec-card {
+  margin-left: 50px;
+}
+
+.card-box {
+  width: 250px;
+  margin-top: 20px;
+  margin-bottom: 45px;
+}
+
+.card-date {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  color: #0A2640;
+}
+
+.seriy1 {
+  margin-left: 12px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #777777;
+}
+
+.card-text {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #000000;
+  margin-bottom: 25px;
+  margin-top: 12px;
+}
+
+.card-login {
+  text-decoration: none;
+}
+
+.log-name {
+  margin-left: 15px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.more {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  color: #0A2640;
+  text-decoration: none;
+  border: 2px solid black;
+  border-radius: 45px;
+  padding: 10px 35px;
+  text-align: center;
+  margin-left: 600px;
+}
+
+.section-3-info {
+  background-color: #0A2640;
+  padding: 74px 240px;
+  margin-bottom: 80px;
+}
+
+.section-3-title {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 72px;
+  color: #FFFFFF;
+  width: 600px;
+  text-align: center;
+  margin-left: 220px;
+  margin-bottom: 50px;
+}
+
+.sec-form {
+  display: flex;
+}
+
+.sec-forms {
+  margin-left: 280px;
+}
+
+.mail {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #000000;
+  border: 1px solid white;
+  border-radius: 40px;
+  background-color: #fff;
+  padding: 10px 55px;
+  text-decoration: none;
+}
+
+.start {
+  margin-left: 50px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  color: #0A2640;
+  background: #65E4A3;
+  border: 2px solid #65E4A3;
+  border-radius: 50px;
+  text-decoration: none;
+  padding: 10px 30px;
+}
+
+.footer-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 100px 150px 110px 100px;
+  background-color: #fff;
+}
+
+.footer-content {
+  width: 300px;
+}
+
+.footer-text {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #777777;
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+
+.footer-word {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #777777;
+}
+
+.footer-lists {
+  margin-left: 150px;
+}
+
+.footer-list {
+  list-style: none;
+}
+
+.footer-link {
+  text-decoration: none;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 60px;
+  color: #777777;
+}
+
+.qora {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 32px;
+  color: #000000;
+}
+
+.hiring {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 28px;
+  color: #0A2640;
+  background: #65E4A3;
+  border-radius: 100px;
+  text-decoration: none;
+  padding: 3px 15px;
+}/*# sourceMappingURL=blog.css.map */
