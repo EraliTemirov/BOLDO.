@@ -2,9 +2,8 @@
     background-color: white;
 }
 .section1{
-    width: 600px;
+  
     text-align: center;
-    transform: translateX(300px);
     padding-top: 70px;
     padding-bottom: 60px;
     
@@ -14,9 +13,15 @@
    font-size: 20px;
    line-height: 32px; 
 }
-.section1 h2{  
-   font-size: 30px;
-   line-height: 50px; 
+.section1 h2{ 
+    width: 600px;
+    display: flex;
+    margin-left: 350px;
+   font-size: 35px;
+   line-height: 50px;
+   font-family: 'Manrope';
+font-style: normal;
+font-weight: 400; 
 }
 .portion{
     -webkit-box-flex: 1;
@@ -31,10 +36,16 @@
 .cardnet h3{
   font-size: 20px;
     line-height: 1.8rem;
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
 }
 .cardnet p{
     color:#777777;
   font-size: 18px;
     line-height: 1.9em;
     margin-bottom: 15px;
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
 }
